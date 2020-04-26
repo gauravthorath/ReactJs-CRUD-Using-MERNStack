@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
-import Test2 from "./Test2";
+
 import './App.css';
+
+import Test2 from "./components/Test2";
+import pureComponent from './components/pureComponent/pureComponent';
 
 
 function App() {
@@ -12,6 +15,7 @@ function App() {
       </header>
       <div className="App-body">
       <Test2 />
+      <pureComponent />
       </div>
       
     
